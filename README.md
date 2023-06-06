@@ -1,64 +1,71 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+Date
+14.5.2023
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+1. divide index.php in 5 smaller files.(done)
+2. include these files in index.php properly.(done)
+3. outcome: index.php will be same as before.(done)
 
-## About Laravel
+Date
+15.5.2023
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+1. database connection.(done 1/2 )
+2. database connection with mysqli.(done)
+3. database connection with mysqli object.(done)
+4. database connection with PDO object.(done)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Date
+17.5.2023
 
-## Learning Laravel
+1. make a table (CONTACTS) with phpScript.
+ (a). Create a table.
+ (b). I need database connection.
+ (c). I need sqlquery to create table.
+ (d). I need to run database connection object with query method function .
+ (e). I need to pass sqlquery from option (c) to query method.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+2. with mysqli. (done)
+3. with mysqli object. (done)
+4. with PDO object. (done)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Date
+18.5.2023
 
-## Laravel Sponsors
+1. Study with form input.(done)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Date
+23.5.2023
 
-### Premium Partners
+1. Saving data with php forms.
+(a) make a form with html/or find exiting form.(done)
+(b) make this html form into php form.(done)
+(c) add action path.(done)
+(d) debug action in php file.(done)
+(e) validate empty field, validate strip extra spaces.
+  
+(e) save action perams into database table.
+2. Updating data with php form.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Date
+24.5.2013
 
-## Contributing
+1. Dashbord (table,contact massages ).
+2. Sidebar to table.
+3. Create user table
+4. Plan about athentication (email,password,jwt token) bcrypt.
+5. Composer package install.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Date 
+25.5.2023
 
-## Code of Conduct
+1. Impliment authentication.
+2. Plan user authorisation, role base access.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+date
+1.6.2023
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. create a new folder name validations.(done)
+2. put all the validation in as separeted files, as class.
+   Example: EmptyStringChecker{},
+   $stringChcker  = new EmptyStringChecker,
+   $emptyCheker->isEmpty('Valueoffrom').
